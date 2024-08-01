@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <button class="toggle-btn" aria-label="Toggle dark mode">
+            <i class="fas fa-lightbulb"></i>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#technologies">Tech Box</a></li>
+                <li><a href="#skills">Skillset</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="about">
+            <div class="about-content">
+                <div>
+                    <h2>About Me</h2> 
+                    <p>Hi! I'm Rabia, a Junior Developer with a passion for UX/UI Design. I'm enthusiastic about bringing creative solutions to life and have experience with both frontend and backend technologies. I'm skilled in Figma, HTML, CSS, JavaScript, and React.js. I enjoy crafting responsive designs and building web applications that provide a great user experience on any device. </p>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div id="project-list">
+                <!-- Projects will be dynamically inserted here -->
+            </div>
+        </section>
+        <section id="technologies">
+            <h2>Tech Box</h2>
+            <ul>
+                <li><strong>Frontend:</strong> 
+                    <i class="fab fa-html5 html-icon"></i> HTML
+                    <i class="fab fa-css3-alt css-icon"></i> CSS
+                    <i class="fab fa-js js-icon"></i> JavaScript
+                    <i class="fab fa-react react-icon"></i> React.js
+                </li>
+                <li><strong>Backend:</strong> 
+                    <i class="fab fa-node-js node-icon"></i> Node.js
+                    <i class="fas fa-server express-icon"></i> Express.js
+                </li>
+                <li><strong>Tools:</strong> 
+                    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/figma.svg" alt="Figma" class="icon figma-icon"> Figma
+                    <i class="fab fa-git git-icon"></i> Git
+                </li>
+                <li><strong>Databases:</strong> 
+                    <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" alt="MongoDB" class="icon mongodb-icon"> MongoDB
+                    <i class="fas fa-database sql-icon"></i> SQL
+                </li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skillset</h2>
+            <div class="skills-section">
+                <div class="skill-category">
+                    <h3>Design Skills</h3>
+                    <p>UI/UX Design, Graphic Design, Web Desing, Adobe Creative Suite, Figma, Adobe XD.</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Development Skills</h3>
+                    <p>HTML, CSS, JavaScript, React, Node.js, SQL, MongoDB.</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Other Skills</h3>
+                    <p>Agile Methodologies (Scrum), WordPress, Software Testing, User Research, Online Marketing.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p><a href="tel:+491781644379">+491781644379</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p><a href="mailto:rabiaaksoy93@gmail.com">rabiaaksoy93@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <p><a href="https://github.com/rbksy">GitHub</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-behance"></i>
+                    <p><a href="https://www.behance.net/rabiaaksoy">Behance</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <p><a href="https://www.linkedin.com/in/rabia-aksy">LinkedIn</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white text-center mt-20 py-3">
+        <p>&copy; 2024 Rabia Aksoy. All rights reserved.</p>
+    </footer>
+    
+    <script src="index.js"></script>
+
+</body>
+</html>

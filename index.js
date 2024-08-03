@@ -1,12 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const projectList = document.getElementById('project-list');
     const projects = [
-        {
-            id: 'diyhub',
-            title: 'DIYHUB',
-            description: 'DIYHUB is a comprehensive Full Stack Web Development project designed to create a vibrant and collaborative platform for DIY enthusiasts.',
-            link: 'https://diyhub.netlify.app'
-        },
+
         {
             id: 'pokedex',
             title: 'POKEDEX',
@@ -24,8 +19,14 @@ document.addEventListener('DOMContentLoaded', () => {
         title: 'My Log Travels',
         description: 'This project utilizes a modern tech stack including React, JavaScript, HTML, and Tailwind CSS to create an interactive and visually appealing web experience for users seeking travel information and services.',
         link: 'https://traveltoyourdreams.netlify.app/'
-    }
+    },
 
+    {
+        id: 'diyhub',
+        title: 'DIYHUB',
+        description: 'DIYHUB is a comprehensive Full Stack Web Development project designed to create a vibrant and collaborative platform for DIY enthusiasts.',
+        link: 'https://diyhub.netlify.app'
+    }
 
         // Add more projects here as needed
     ];

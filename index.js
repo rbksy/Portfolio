@@ -14,13 +14,13 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'This React-App provides a simple and intuitive interface for adding, editing, deleting, and organizing tasks.',
             link: 'https://tasktornado.netlify.app'
         },
+
          {
         id: 'travel',
         title: 'My Log Travels',
         description: 'This project utilizes a modern tech stack including React, JavaScript, HTML, and Tailwind CSS to create an interactive and visually appealing web experience for users seeking travel information and services.',
         link: 'https://traveltoyourdreams.netlify.app/'
     },
-
     {
         id: 'diyhub',
         title: 'DIYHUB',
